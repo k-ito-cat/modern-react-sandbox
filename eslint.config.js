@@ -26,7 +26,8 @@ export default defineConfig([
   },
   {
     rules: {
-      "react/react-in-jsx-scope": "off",
+      'react/react-in-jsx-scope': 'off',
+      'react/jsx-uses-react': 'off',
     },
   },
   tseslint.configs.recommended,
